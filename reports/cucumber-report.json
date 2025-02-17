@@ -1,0 +1,237 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "agregar-télefono-al-carrito-de-compra;verificar-funcionalidad-después-de-registro-e-inicio-de-sesión",
+        "keyword": "Scenario Outline",
+        "line": 18,
+        "name": "Verificar funcionalidad después de registro e inicio de sesión",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "el usuario está en la página de login",
+            "match": {
+              "location": "steps/login.steps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2471842042
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "ingresa su usuario personal \"Erick.Kling0@yahoo.com\" y contraseña \"password123\"",
+            "match": {
+              "location": "steps/login.steps.ts:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 262808834
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "da click en el boton Log in",
+            "match": {
+              "location": "steps/login.steps.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 343981499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "el usuario \"Erick.Kling0@yahoo.com\" debería acceder a la pagina principal",
+            "match": {
+              "location": "steps/login.steps.ts:84"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1330972416
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "da clic en la opcion phones del menu principal",
+            "match": {
+              "location": "steps/addPhoneToCar.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 92355875
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "agrega \"Samsung galaxy s6\" al carrito de compras",
+            "match": {
+              "location": "steps/addPhoneToCar.steps.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1455613250
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "debería visualizarse en el carrito de compra",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 208403499
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@agregarTelefonoAlCarrito",
+            "line": 10
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "agregar-télefono-al-carrito-de-compra;verificar-funcionalidad-después-de-registro-e-inicio-de-sesión",
+        "keyword": "Scenario Outline",
+        "line": 19,
+        "name": "Verificar funcionalidad después de registro e inicio de sesión",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "el usuario está en la página de login",
+            "match": {
+              "location": "steps/login.steps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1636872750
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "ingresa su usuario personal \"Erick.Kling0@yahoo.com\" y contraseña \"password123\"",
+            "match": {
+              "location": "steps/login.steps.ts:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 224205791
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "da click en el boton Log in",
+            "match": {
+              "location": "steps/login.steps.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 342134707
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "el usuario \"Erick.Kling0@yahoo.com\" debería acceder a la pagina principal",
+            "match": {
+              "location": "steps/login.steps.ts:84"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1322984207
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "da clic en la opcion phones del menu principal",
+            "match": {
+              "location": "steps/addPhoneToCar.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 91447749
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "agrega \"Nokia lumia 1520\" al carrito de compras",
+            "match": {
+              "location": "steps/addPhoneToCar.steps.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1457620000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "debería visualizarse en el carrito de compra",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 149381666
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@agregarTelefonoAlCarrito",
+            "line": 10
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "agregar-télefono-al-carrito-de-compra",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Agregar télefono al carrito de compra",
+    "tags": [],
+    "uri": "features/addElement/addPhoneToCar.feature"
+  }
+]
